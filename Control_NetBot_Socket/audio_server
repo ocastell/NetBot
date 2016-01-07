@@ -1,0 +1,2 @@
+gst-launch-1.0 -v alsasrc device= ! mulawenc ! rtppcmupay ! udpsink host= port= > /dev/null 2> /dev/null &'
+

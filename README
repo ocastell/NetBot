@@ -1,0 +1,15 @@
+INSTALL & Execute
+
+1.- You must copy Control_Netbot_Socket.tar.gz in your RaspBerry PI.
+2.- tar -svzf Control_Netbot_Socket.tar.gz 
+3.- Execute the server in RaspBerry Pi: python ./server_socket.py
+4.- In the Netbook client execute: python ./NetBot.py
+
+DEPENDENCIES
+
+1.- In the RaspBerry Pi: gstreamer 1.0, & MOTION
+2.- In the client Netbook: gstreamer 1.0 & MOTION, pyGTK 2.0
+
+Other Libraries
+
+The server_socket.py use the pyroomba in this case
